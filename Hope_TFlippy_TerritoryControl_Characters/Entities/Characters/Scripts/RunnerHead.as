@@ -177,12 +177,6 @@ void ReloadHead(CSprite@ this)
 			blob.SetLightRadius(16.0f);
 			blob.SetLightColor(SColor(255, 255, 0, 0));
 		}
-		
-		if (ply.getUsername() == "reqzites")
-		{	
-		
-			head_index = 112;
-
 		}
 		
 		if (ply.getUsername() == "NoahTheLegend")
@@ -229,6 +223,12 @@ void ReloadHead(CSprite@ this)
 		{	
 		
 			head_index = 119;
+
+		}
+		if (ply.getUsername() == "StonesRabbit")
+		{	
+		
+			head_index = 126;
 
 		}
 		
